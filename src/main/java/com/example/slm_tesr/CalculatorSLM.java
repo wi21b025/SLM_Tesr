@@ -10,4 +10,6 @@ public class CalculatorSLM {
     public int sum(@RequestParam int a,@RequestParam int b){
         return a + b;
     }
+
+    //http://localhost:8080/sum?a=1&b=2
 }
