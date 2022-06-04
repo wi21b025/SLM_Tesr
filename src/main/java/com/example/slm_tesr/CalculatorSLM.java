@@ -12,4 +12,10 @@ public class CalculatorSLM {
     }
 
     //http://localhost:8080/sum?a=1&b=2
+
+    @RequestMapping("/multiply")
+    public int multi(@RequestParam int a,@RequestParam int b){
+        return a * b;
+    }
+    //http://localhost:8080/sum?a=1&b=2
 }
