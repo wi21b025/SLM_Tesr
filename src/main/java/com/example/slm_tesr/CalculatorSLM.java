@@ -27,9 +27,4 @@ public class CalculatorSLM {
         return a;
     }
     //http://localhost:8080/absolute?a=-9
-
-
-
-
-
 }
